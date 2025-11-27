@@ -1,12 +1,23 @@
 # utils.py
 
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta 
+from collections import defaultdict
+from typing import Union, Final, Any
 import config
 import math
-from typing import Union  # <-- 1. IMPORT Union
+
+
+def get_memory_cost(response_size_bytes: int) -> float:
+    """Calculates the accurate memory cost for a single request based on response size tiers."""
+    for max_bytes, cost in config.MEMORY_COST_TIERS_BYTES:
+        if response_size_bytes <= max_bytes:
+            return cost
+            
+    # Fallback to highest tier cost if somehow larger than the max defined tier
+    return config.MEMORY_COST_TIERS_BYTES[-1][1] 
 
 def parse_timestamp(ts_str: str) -> Union[datetime, None]:
-    """Parses a timestamp string into a timezone-aware datetime object."""
+    """Parses a timestamp string into a timezone-aware datetime object (Fix for Pylance/Python < 3.10)."""
     try:
         dt = datetime.strptime(ts_str, config.TIMESTAMP_FORMAT).replace(tzinfo=timezone.utc)
         return dt
@@ -16,43 +27,48 @@ def parse_timestamp(ts_str: str) -> Union[datetime, None]:
 def validate_log_entry(log: dict) -> Union[dict, None]:
     """
     Validates and cleans a single log entry, returning None if invalid.
-    Handles malformed data and missing fields.
     """
-    required_fields = [
+    required_fields: Final[list[str]] = [
         "timestamp", "endpoint", "method", "response_time_ms", 
         "status_code", "user_id", "request_size_bytes", "response_size_bytes"
     ]
     
     for field in required_fields:
         if field not in log:
-            return None # Missing required field
+            return None 
 
-    # Validate response time (must be non-negative)
+    # Validate response time and sizes (must be non-negative integers)
     try:
-        response_time = int(log["response_time_ms"])
-        if response_time < 0:
+        log["response_time_ms"] = int(log["response_time_ms"])
+        log["request_size_bytes"] = int(log["request_size_bytes"])
+        log["response_size_bytes"] = int(log["response_size_bytes"])
+        
+        if log["response_time_ms"] < 0 or log["request_size_bytes"] < 0 or log["response_size_bytes"] < 0:
             return None
-        log["response_time_ms"] = response_time
     except ValueError:
         return None
         
-    # Validate sizes (must be non-negative)
-    try:
-        log["request_size_bytes"] = int(log["request_size_bytes"])
-        log["response_size_bytes"] = int(log["response_size_bytes"])
-        if log["request_size_bytes"] < 0 or log["response_size_bytes"] < 0:
-            return None
-    except ValueError:
-        return None
-
     # Validate timestamp
     log_dt = parse_timestamp(log["timestamp"])
     if not log_dt:
         return None
         
-    log["timestamp"] = log_dt # Replace string with datetime object
+    log["timestamp"] = log_dt # Store datetime object
+    log["status_code"] = int(log["status_code"]) # Ensure status code is int
 
     return log
+
+def calculate_empty_cost() -> dict:
+     return {
+        "total_cost_usd": 0.0,
+        "cost_breakdown": {
+            "request_costs": 0.0,
+            "execution_costs": 0.0,
+            "memory_costs": 0.0
+        },
+        "cost_by_endpoint": [],
+        "optimization_potential_usd": 0.0 # Remains zero as default/placeholder
+    }
 
 def create_empty_report() -> dict:
     """Generates the expected output structure for an empty input array."""
@@ -70,22 +86,10 @@ def create_empty_report() -> dict:
         "hourly_distribution": {},
         "top_users_by_requests": [],
         "cost_analysis": calculate_empty_cost(),
-        "caching_opportunities": []
+        "rate_limit_violations": {"user_violations": [], "endpoint_violations": [], "total_violations": 0} # NEW FIELD
     }
 
-def calculate_empty_cost() -> dict:
-     return {
-        "total_cost_usd": 0.0,
-        "cost_breakdown": {
-            "request_costs": 0.0,
-            "execution_costs": 0.0,
-            "memory_costs": 0.0
-        },
-        "cost_by_endpoint": [],
-        "optimization_potential_usd": 0.0
-    }
-
-def calculate_summary(total_requests: int, total_response_time: float, error_count: int, timestamps: list) -> dict:
+def calculate_summary(total_requests: int, total_response_time: float, error_count: int, timestamps: list[datetime]) -> dict:
     """Calculates the overall summary statistics."""
     if total_requests == 0:
         return create_empty_report()["summary"]
@@ -93,8 +97,8 @@ def calculate_summary(total_requests: int, total_response_time: float, error_cou
     avg_response_time = total_response_time / total_requests
     error_rate = (error_count / total_requests) * 100
     
-    # Sort timestamps to find range
-    timestamps.sort()
+    # FIX: Correct sorting of datetime objects (removed .str)
+    timestamps.sort() 
     start_time = timestamps[0].strftime(config.TIMESTAMP_FORMAT) if timestamps else ""
     end_time = timestamps[-1].strftime(config.TIMESTAMP_FORMAT) if timestamps else ""
 
@@ -105,7 +109,7 @@ def calculate_summary(total_requests: int, total_response_time: float, error_cou
         "error_rate_percentage": round(error_rate, 2)
     }
 
-def get_top_users(user_requests: dict, top_n: int) -> list:
+def get_top_users(user_requests: dict[str, int], top_n: int) -> list[dict]:
     """Returns the top N users by request count."""
     sorted_users = sorted(user_requests.items(), key=lambda item: item[1], reverse=True)
     
@@ -115,7 +119,7 @@ def get_top_users(user_requests: dict, top_n: int) -> list:
         
     return top_users
 
-def calculate_endpoint_stats(endpoint_data: dict) -> list:
+def calculate_endpoint_stats(endpoint_data: dict) -> list[dict]:
     """Calculates statistics for each endpoint."""
     endpoint_stats_list = []
     for endpoint, data in endpoint_data.items():
@@ -135,16 +139,16 @@ def calculate_endpoint_stats(endpoint_data: dict) -> list:
             "slowest_request_ms": data['max_time'],
             "fastest_request_ms": data['min_time'] if data['min_time'] != float('inf') else 0,
             "error_count": data['errors'],
-            "error_rate_percentage": round(error_rate, 2), # Added for use in performance detection
+            "error_rate_percentage": round(error_rate, 2),
             "most_common_status": most_common_status,
-            "total_response_time_ms": data['total_time'], # Added for cost calculation
-            "total_response_bytes": data['response_bytes'], # Added for cost calculation
-            "is_get_count": data['is_get'] # Added for caching analysis
+            "total_response_time_ms": data['total_time'],
+            "total_memory_cost": data['total_memory_cost'], 
+            "is_get_count": data['is_get'] 
         })
         
     return endpoint_stats_list
 
-def detect_performance_issues(endpoint_stats: list) -> list:
+def detect_performance_issues(endpoint_stats: list[dict]) -> list[dict]:
     """Identifies slow endpoints and high error rate endpoints based on config thresholds."""
     issues = []
     
@@ -155,7 +159,8 @@ def detect_performance_issues(endpoint_stats: list) -> list:
         
         # 1. Slow Endpoint Detection
         severity_slow = None
-        threshold_ms = None
+        threshold_ms = 0
+        
         if avg_time > config.THRESHOLD_SLOW_CRITICAL:
             severity_slow = "critical"
             threshold_ms = config.THRESHOLD_SLOW_CRITICAL
@@ -177,7 +182,8 @@ def detect_performance_issues(endpoint_stats: list) -> list:
 
         # 2. High Error Rate Detection
         severity_error = None
-        threshold_rate = None
+        threshold_rate = 0.0
+        
         if err_rate > config.THRESHOLD_ERROR_CRITICAL:
             severity_error = "critical"
             threshold_rate = config.THRESHOLD_ERROR_CRITICAL
@@ -199,17 +205,13 @@ def detect_performance_issues(endpoint_stats: list) -> list:
             
     return issues
 
-def get_memory_cost(response_size_bytes: int) -> float:
-    """Calculates the memory cost for a single request based on response size tiers."""
-    for max_bytes, cost in config.MEMORY_COST_TIERS_BYTES:
-        if response_size_bytes <= max_bytes:
-            return cost
-    return 0.0 # Should not be reached if tiers are configured correctly
-
-# --- Advanced Feature A: Cost Estimation Engine ---
+# --- Advanced Feature A: Cost Estimation Engine (Fixed for Accuracy) ---
 
 def calculate_cost_analysis(endpoint_data: dict, total_requests: int) -> dict:
-    """Calculates total and per-endpoint serverless execution costs."""
+    """
+    Calculates total and per-endpoint serverless execution costs.
+    Uses accurate pre-calculated total memory cost from the main log pass.
+    """
     if total_requests == 0:
         return calculate_empty_cost()
 
@@ -221,32 +223,15 @@ def calculate_cost_analysis(endpoint_data: dict, total_requests: int) -> dict:
     for endpoint, data in endpoint_data.items():
         if data['count'] == 0: continue
         
-        # Execution cost: (Total response time in ms) * cost per ms
+        # 1. Execution Cost: (Total response time in ms) * cost per ms
         endpoint_execution_cost = data['total_time'] * config.COST_PER_MS_EXECUTION
         total_execution_costs += endpoint_execution_cost
         
-        # Request cost: (Count) * cost per request
+        # 2. Request Cost: (Count) * cost per request
         endpoint_request_cost = data['count'] * config.COST_PER_REQUEST
         
-        # Memory cost: (Count) * average memory cost per request
-        # For simplicity, we assume the total memory cost is the sum of costs for each individual response size, 
-        # using the tier cost per request.
-        
-        # This implementation requires a loop through the original logs to accurately calculate memory cost, 
-        # as it depends on the size of *each* response. Since we only have total_response_bytes here, 
-        # we'll approximate by using the *total count* times the cost for the *average* response size.
-        # However, to be fully accurate based on the prompt's tiers (which are per request), 
-        # we must assume the memory costs were summed during the single pass in function.py.
-        # Since the pass is in function.py, let's assume `data` contains `total_memory_cost` 
-        # calculated during the pass for accurate tiering.
-        
-        # *** SELF-CORRECTION: Must pass through cost data calculated in main pass ***
-        # Since the main function only computes total bytes, we'll estimate using average size, 
-        # and document this trade-off in DESIGN.md.
-        
-        avg_response_bytes = data['total_response_bytes'] / data['count']
-        avg_memory_cost_per_request = get_memory_cost(int(avg_response_bytes))
-        endpoint_memory_cost = data['count'] * avg_memory_cost_per_request
+        # 3. Memory Cost: Sum of individual request memory costs (ACCURATE)
+        endpoint_memory_cost = data['total_memory_cost']
         total_memory_costs += endpoint_memory_cost
         
         # Total cost for endpoint
@@ -255,100 +240,118 @@ def calculate_cost_analysis(endpoint_data: dict, total_requests: int) -> dict:
 
         cost_by_endpoint.append({
             "endpoint": endpoint,
-            "total_cost": round(endpoint_total_cost, 2),
-            "cost_per_request": round(total_cost_per_request, 4)
+            "total_cost": round(endpoint_total_cost, 6), # Increased precision to avoid zero rounding issue
+            "cost_per_request": round(total_cost_per_request, 6) 
         })
 
     total_cost = total_request_costs + total_execution_costs + total_memory_costs
     
-    # Calculate Optimization Potential (For this feature, we'll set it to 0 and rely on caching analysis for savings)
-    optimization_potential_usd = 0.0
-    
     return {
         "total_cost_usd": round(total_cost, 2),
         "cost_breakdown": {
-            "request_costs": round(total_request_costs, 2),
-            "execution_costs": round(total_execution_costs, 2),
-            "memory_costs": round(total_memory_costs, 2)
+            "request_costs": round(total_request_costs, 6),
+            "execution_costs": round(total_execution_costs, 6),
+            "memory_costs": round(total_memory_costs, 6)
         },
         "cost_by_endpoint": cost_by_endpoint,
-        "optimization_potential_usd": round(optimization_potential_usd, 2)
+        # Optimization potential is added in function.py orchestration layer if needed, default to 0.0 here
+        "optimization_potential_usd": 0.0 
     }
 
-# --- Advanced Feature D: Caching Opportunity Analysis ---
+# --- Advanced Feature C: Rate Limiting Analysis (NEW) ---
 
-def analyze_caching_opportunities(endpoint_stats: list, cost_analysis: dict) -> list:
-    """Identifies endpoints that would benefit most from caching."""
-    opportunities = []
+def analyze_rate_limit_violations(validated_logs: list[dict[str, Any]]) -> dict:
+    """
+    Analyzes log data to detect per-minute and per-hour violations using sliding windows.
+    The input logs MUST be sorted chronologically.
+    """
+    rules = config.RATE_LIMIT_RULES
     
-    total_potential_savings = {
-        "requests_eliminated": 0,
-        "cost_savings_usd": 0.0,
-        "performance_improvement_ms": 0.0
+    # Trackers store the timestamps (datetime objects) of recent requests for each key
+    # { 'user_id' or 'endpoint': [dt_request_1, dt_request_2, ...] }
+    user_tracker = defaultdict(list)
+    endpoint_tracker = defaultdict(list)
+    
+    user_violations: list[dict] = []
+    endpoint_violations: list[dict] = []
+    
+    # Helper to check and prune the tracker
+    def check_and_prune(tracker, key, current_time, time_window_seconds, limit_key, violation_list, entity_type):
+        
+        # 1. Add current request
+        tracker[key].append(current_time)
+        
+        # 2. Prune old requests outside the time window
+        cutoff_time = current_time - timedelta(seconds=time_window_seconds)
+        # Keep only timestamps STRICTLY greater than the cutoff
+        tracker[key] = [ts for ts in tracker[key] if ts > cutoff_time]
+        
+        actual_count = len(tracker[key])
+        limit = rules[entity_type][limit_key]
+        
+        # 3. Check violation
+        if actual_count > limit:
+            violation_type = limit_key.replace('requests_', '')
+            
+            # Simple check to prevent logging a violation for every single request in the same heavy window.
+            # We only log it if the last violation for this key/type was NOT the current request time.
+            violation_found = False
+            for v in violation_list:
+                if (entity_type == 'per_user' and v.get('user_id') == key or 
+                    entity_type == 'per_endpoint' and v.get('endpoint') == key) and \
+                    v['violation_type'] == violation_type:
+                    
+                    # Check if the violation has already been logged near this timestamp (within 1 second)
+                    logged_dt = v['timestamp_dt']
+                    if (current_time - logged_dt).total_seconds() < 1:
+                        violation_found = True
+                        break
+            
+            if not violation_found:
+                violation_entry = {
+                    "violation_type": violation_type.replace('_per', '_'),
+                    "limit": limit,
+                    "actual": actual_count,
+                    "timestamp": current_time.strftime(config.TIMESTAMP_FORMAT),
+                    "timestamp_dt": current_time # Store datetime object for internal check
+                }
+                
+                if entity_type == 'per_user':
+                    violation_entry["user_id"] = key
+                    user_violations.append(violation_entry)
+                else:
+                    violation_entry["endpoint"] = key
+                    endpoint_violations.append(violation_entry)
+                
+    # Loop over all logs and check both user and endpoint limits
+    for log in validated_logs:
+        dt = log['timestamp']
+        user_id = log['user_id']
+        endpoint = log['endpoint']
+        
+        # Per-Minute Limits (60 seconds)
+        check_and_prune(user_tracker, user_id, dt, 60, "requests_per_minute", user_violations, 'per_user')
+        check_and_prune(endpoint_tracker, endpoint, dt, 60, "requests_per_minute", endpoint_violations, 'per_endpoint')
+        
+        # Per-Hour Limits (3600 seconds)
+        check_and_prune(user_tracker, user_id, dt, 3600, "requests_per_hour", user_violations, 'per_user')
+        check_and_prune(endpoint_tracker, endpoint, dt, 3600, "requests_per_hour", endpoint_violations, 'per_endpoint')
+
+    # Clean up the output list for the final report (remove internal timestamp_dt)
+    final_user_violations = [{k: v for k, v in item.items() if k != 'timestamp_dt'} for item in user_violations]
+    final_endpoint_violations = [{k: v for k, v in item.items() if k != 'timestamp_dt'} for item in endpoint_violations]
+    
+    return {
+        "user_violations": final_user_violations,
+        "endpoint_violations": final_endpoint_violations,
+        "total_violations": len(final_user_violations) + len(final_endpoint_violations)
     }
-    
-    cost_map = {item['endpoint']: item for item in cost_analysis['cost_by_endpoint']}
 
-    for stats in endpoint_stats:
-        endpoint = stats["endpoint"]
-        request_count = stats["request_count"]
-        error_rate = stats["error_rate_percentage"]
-        is_get_count = stats["is_get_count"]
-        
-        # 1. Check Criteria
-        passes_criteria = (
-            request_count > config.CACHE_CRITERIA_MIN_REQUESTS and 
-            (is_get_count / request_count) >= config.CACHE_CRITERIA_MIN_GET_RATIO and
-            error_rate <= config.CACHE_CRITERIA_MAX_ERROR_RATE and
-            stats["most_common_status"] < 400 # Assumes 2xx/3xx are cacheable/consistent
-        )
-        
-        if passes_criteria:
-            # 2. Calculate Potential Savings
-            potential_cache_hit_rate = math.floor((is_get_count / request_count) * 100 * 0.95) # 95% of GETs are cacheable
-            potential_requests_saved = math.floor(request_count * (potential_cache_hit_rate / 100))
-            
-            # Find associated cost for savings calculation
-            endpoint_cost_data = cost_map.get(endpoint)
-            
-            if endpoint_cost_data:
-                cost_per_request = endpoint_cost_data['cost_per_request']
-                estimated_cost_savings_usd = potential_requests_saved * cost_per_request
-                
-                # Performance improvement (approx) = requests saved * avg response time
-                performance_improvement_ms = potential_requests_saved * stats["avg_response_time_ms"]
-                
-                opportunities.append({
-                    "endpoint": endpoint,
-                    "potential_cache_hit_rate": potential_cache_hit_rate,
-                    "current_requests": request_count,
-                    "potential_requests_saved": potential_requests_saved,
-                    "estimated_cost_savings_usd": round(estimated_cost_savings_usd, 2),
-                    "recommended_ttl_minutes": config.RECOMMENDED_TTL_MINUTES,
-                    "recommendation_confidence": "high"
-                })
-                
-                # Update total savings
-                total_potential_savings["requests_eliminated"] += potential_requests_saved
-                total_potential_savings["cost_savings_usd"] += estimated_cost_savings_usd
-                total_potential_savings["performance_improvement_ms"] += performance_improvement_ms
-                
-    # Add Total Savings to the result for the final output format
-    opportunities.append({
-        "total_potential_savings": {
-            "requests_eliminated": total_potential_savings["requests_eliminated"],
-            "cost_savings_usd": round(total_potential_savings["cost_savings_usd"], 2),
-            "performance_improvement_ms": round(total_potential_savings["performance_improvement_ms"], 2)
-        }
-    })
-    
-    return opportunities
-    
-def generate_recommendations(performance_issues: list, caching_opportunities: list) -> list:
-    """Generates actionable recommendations based on analysis."""
+def generate_recommendations(performance_issues: list[dict], rate_limit_violations: dict) -> list[str]:
+    """Generates actionable recommendations based on analysis (Updated for Rate Limits)."""
     recommendations = []
     
-    # 1. Recommendations from Performance Issues
+    # 1. Recommendations from Performance Issues (Prioritized)
     for issue in performance_issues:
         if issue["type"] == "slow_endpoint":
             recommendations.append(
@@ -359,11 +362,16 @@ def generate_recommendations(performance_issues: list, caching_opportunities: li
                 f"Alert: {issue['endpoint']} has {issue['error_rate_percentage']}% error rate. Severity: {issue['severity'].upper()}."
             )
             
-    # 2. Recommendations from Caching Opportunities
-    for opportunity in caching_opportunities:
-        if "endpoint" in opportunity: # Skip the total savings entry
-            recommendations.append(
-                f"Consider caching for {opportunity['endpoint']} ({opportunity['current_requests']} requests, {opportunity['potential_cache_hit_rate']}% cache-hit potential)."
-            )
+    # 2. Recommendations from Rate Limit Violations
+    if rate_limit_violations["total_violations"] > 0:
+        recommendations.append(
+            f"ALERT: Detected {rate_limit_violations['total_violations']} rate limit violations. Review top offenders."
+        )
+        
+        # Highlight top 3 unique violating users
+        violating_users = {v['user_id'] for v in rate_limit_violations['user_violations']}
+        if violating_users:
+            top_violators = ', '.join(list(violating_users)[:3])
+            recommendations.append(f"Immediate action: Review users [{top_violators}] for potential abuse or misconfiguration.")
 
     return recommendations

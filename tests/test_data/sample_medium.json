@@ -1,0 +1,5002 @@
+[
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 446,
+    "response_size_bytes": 45471,
+    "request_size_bytes": 857,
+    "timestamp": "2025-01-15T10:00:00Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 453,
+    "response_size_bytes": 303,
+    "request_size_bytes": 681,
+    "timestamp": "2025-01-15T10:00:00Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 300,
+    "response_size_bytes": 402,
+    "request_size_bytes": 373,
+    "timestamp": "2025-01-15T10:00:00Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 1057,
+    "response_size_bytes": 821,
+    "request_size_bytes": 898,
+    "timestamp": "2025-01-15T10:00:00Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 503,
+    "response_time_ms": 780,
+    "response_size_bytes": 411,
+    "request_size_bytes": 709,
+    "timestamp": "2025-01-15T10:00:00Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 276,
+    "response_size_bytes": 6627,
+    "request_size_bytes": 857,
+    "timestamp": "2025-01-15T10:00:01Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 764,
+    "response_size_bytes": 477,
+    "request_size_bytes": 993,
+    "timestamp": "2025-01-15T10:00:01Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 1207,
+    "response_size_bytes": 810,
+    "request_size_bytes": 731,
+    "timestamp": "2025-01-15T10:00:01Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 1462,
+    "response_size_bytes": 938,
+    "request_size_bytes": 987,
+    "timestamp": "2025-01-15T10:00:01Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 400,
+    "response_time_ms": 1252,
+    "response_size_bytes": 580,
+    "request_size_bytes": 663,
+    "timestamp": "2025-01-15T10:00:02Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 500,
+    "response_time_ms": 920,
+    "response_size_bytes": 45752,
+    "request_size_bytes": 870,
+    "timestamp": "2025-01-15T10:00:02Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 500,
+    "response_time_ms": 747,
+    "response_size_bytes": 955,
+    "request_size_bytes": 243,
+    "timestamp": "2025-01-15T10:00:02Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 1355,
+    "response_size_bytes": 154,
+    "request_size_bytes": 232,
+    "timestamp": "2025-01-15T10:00:02Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 1200,
+    "response_size_bytes": 443,
+    "request_size_bytes": 646,
+    "timestamp": "2025-01-15T10:00:03Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 697,
+    "response_size_bytes": 491,
+    "request_size_bytes": 205,
+    "timestamp": "2025-01-15T10:00:03Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 401,
+    "response_time_ms": 1268,
+    "response_size_bytes": 5365,
+    "request_size_bytes": 146,
+    "timestamp": "2025-01-15T10:00:03Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 251,
+    "response_size_bytes": 434,
+    "request_size_bytes": 938,
+    "timestamp": "2025-01-15T10:00:04Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 400,
+    "response_time_ms": 400,
+    "response_size_bytes": 492,
+    "request_size_bytes": 393,
+    "timestamp": "2025-01-15T10:00:04Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1211,
+    "response_size_bytes": 503,
+    "request_size_bytes": 410,
+    "timestamp": "2025-01-15T10:00:04Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 440,
+    "response_size_bytes": 799,
+    "request_size_bytes": 626,
+    "timestamp": "2025-01-15T10:00:05Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 404,
+    "response_time_ms": 134,
+    "response_size_bytes": 20704,
+    "request_size_bytes": 174,
+    "timestamp": "2025-01-15T10:00:05Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 1198,
+    "response_size_bytes": 805,
+    "request_size_bytes": 159,
+    "timestamp": "2025-01-15T10:00:05Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 182,
+    "response_size_bytes": 327,
+    "request_size_bytes": 282,
+    "timestamp": "2025-01-15T10:00:05Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 897,
+    "response_size_bytes": 815,
+    "request_size_bytes": 707,
+    "timestamp": "2025-01-15T10:00:06Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 941,
+    "response_size_bytes": 314,
+    "request_size_bytes": 776,
+    "timestamp": "2025-01-15T10:00:06Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 1471,
+    "response_size_bytes": 6763,
+    "request_size_bytes": 586,
+    "timestamp": "2025-01-15T10:00:06Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1299,
+    "response_size_bytes": 462,
+    "request_size_bytes": 205,
+    "timestamp": "2025-01-15T10:00:06Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 263,
+    "response_size_bytes": 369,
+    "request_size_bytes": 992,
+    "timestamp": "2025-01-15T10:00:06Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 741,
+    "response_size_bytes": 142,
+    "request_size_bytes": 798,
+    "timestamp": "2025-01-15T10:00:07Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 1092,
+    "response_size_bytes": 449,
+    "request_size_bytes": 851,
+    "timestamp": "2025-01-15T10:00:07Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 1079,
+    "response_size_bytes": 19816,
+    "request_size_bytes": 963,
+    "timestamp": "2025-01-15T10:00:08Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 404,
+    "response_size_bytes": 197,
+    "request_size_bytes": 972,
+    "timestamp": "2025-01-15T10:00:08Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 352,
+    "response_size_bytes": 284,
+    "request_size_bytes": 225,
+    "timestamp": "2025-01-15T10:00:08Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 1320,
+    "response_size_bytes": 386,
+    "request_size_bytes": 335,
+    "timestamp": "2025-01-15T10:00:08Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 1290,
+    "response_size_bytes": 590,
+    "request_size_bytes": 431,
+    "timestamp": "2025-01-15T10:00:08Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 1238,
+    "response_size_bytes": 7101,
+    "request_size_bytes": 800,
+    "timestamp": "2025-01-15T10:00:09Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 487,
+    "response_size_bytes": 825,
+    "request_size_bytes": 837,
+    "timestamp": "2025-01-15T10:00:09Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 381,
+    "response_size_bytes": 825,
+    "request_size_bytes": 498,
+    "timestamp": "2025-01-15T10:00:09Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 202,
+    "response_size_bytes": 622,
+    "request_size_bytes": 453,
+    "timestamp": "2025-01-15T10:00:10Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 1316,
+    "response_size_bytes": 754,
+    "request_size_bytes": 913,
+    "timestamp": "2025-01-15T10:00:10Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 987,
+    "response_size_bytes": 34253,
+    "request_size_bytes": 366,
+    "timestamp": "2025-01-15T10:00:10Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 407,
+    "response_size_bytes": 981,
+    "request_size_bytes": 676,
+    "timestamp": "2025-01-15T10:00:10Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 365,
+    "response_size_bytes": 685,
+    "request_size_bytes": 137,
+    "timestamp": "2025-01-15T10:00:11Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 470,
+    "response_size_bytes": 180,
+    "request_size_bytes": 583,
+    "timestamp": "2025-01-15T10:00:11Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 772,
+    "response_size_bytes": 294,
+    "request_size_bytes": 761,
+    "timestamp": "2025-01-15T10:00:12Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 502,
+    "response_size_bytes": 4616,
+    "request_size_bytes": 805,
+    "timestamp": "2025-01-15T10:00:12Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 1263,
+    "response_size_bytes": 245,
+    "request_size_bytes": 155,
+    "timestamp": "2025-01-15T10:00:12Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 399,
+    "response_size_bytes": 939,
+    "request_size_bytes": 307,
+    "timestamp": "2025-01-15T10:00:12Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 509,
+    "response_size_bytes": 743,
+    "request_size_bytes": 117,
+    "timestamp": "2025-01-15T10:00:13Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 1356,
+    "response_size_bytes": 648,
+    "request_size_bytes": 823,
+    "timestamp": "2025-01-15T10:00:13Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 707,
+    "response_size_bytes": 40558,
+    "request_size_bytes": 596,
+    "timestamp": "2025-01-15T10:00:13Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 941,
+    "response_size_bytes": 207,
+    "request_size_bytes": 150,
+    "timestamp": "2025-01-15T10:00:13Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 192,
+    "response_size_bytes": 941,
+    "request_size_bytes": 207,
+    "timestamp": "2025-01-15T10:00:14Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 606,
+    "response_size_bytes": 568,
+    "request_size_bytes": 377,
+    "timestamp": "2025-01-15T10:00:14Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 400,
+    "response_time_ms": 1128,
+    "response_size_bytes": 882,
+    "request_size_bytes": 410,
+    "timestamp": "2025-01-15T10:00:14Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 353,
+    "response_size_bytes": 8624,
+    "request_size_bytes": 160,
+    "timestamp": "2025-01-15T10:00:14Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 1402,
+    "response_size_bytes": 449,
+    "request_size_bytes": 448,
+    "timestamp": "2025-01-15T10:00:14Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1161,
+    "response_size_bytes": 903,
+    "request_size_bytes": 144,
+    "timestamp": "2025-01-15T10:00:15Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 446,
+    "response_size_bytes": 386,
+    "request_size_bytes": 924,
+    "timestamp": "2025-01-15T10:00:15Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 401,
+    "response_time_ms": 1365,
+    "response_size_bytes": 822,
+    "request_size_bytes": 184,
+    "timestamp": "2025-01-15T10:00:16Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 1180,
+    "response_size_bytes": 21598,
+    "request_size_bytes": 427,
+    "timestamp": "2025-01-15T10:00:16Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 462,
+    "response_size_bytes": 582,
+    "request_size_bytes": 162,
+    "timestamp": "2025-01-15T10:00:17Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1149,
+    "response_size_bytes": 962,
+    "request_size_bytes": 118,
+    "timestamp": "2025-01-15T10:00:17Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 1122,
+    "response_size_bytes": 106,
+    "request_size_bytes": 558,
+    "timestamp": "2025-01-15T10:00:17Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 1429,
+    "response_size_bytes": 510,
+    "request_size_bytes": 227,
+    "timestamp": "2025-01-15T10:00:17Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 466,
+    "response_size_bytes": 7675,
+    "request_size_bytes": 572,
+    "timestamp": "2025-01-15T10:00:18Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 232,
+    "response_size_bytes": 967,
+    "request_size_bytes": 852,
+    "timestamp": "2025-01-15T10:00:18Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 238,
+    "response_size_bytes": 674,
+    "request_size_bytes": 460,
+    "timestamp": "2025-01-15T10:00:18Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1340,
+    "response_size_bytes": 581,
+    "request_size_bytes": 883,
+    "timestamp": "2025-01-15T10:00:18Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 503,
+    "response_time_ms": 322,
+    "response_size_bytes": 596,
+    "request_size_bytes": 245,
+    "timestamp": "2025-01-15T10:00:18Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 398,
+    "response_size_bytes": 34337,
+    "request_size_bytes": 103,
+    "timestamp": "2025-01-15T10:00:19Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 488,
+    "response_size_bytes": 430,
+    "request_size_bytes": 710,
+    "timestamp": "2025-01-15T10:00:19Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 1068,
+    "response_size_bytes": 552,
+    "request_size_bytes": 365,
+    "timestamp": "2025-01-15T10:00:20Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 387,
+    "response_size_bytes": 295,
+    "request_size_bytes": 662,
+    "timestamp": "2025-01-15T10:00:20Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 264,
+    "response_size_bytes": 248,
+    "request_size_bytes": 349,
+    "timestamp": "2025-01-15T10:00:20Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 1304,
+    "response_size_bytes": 2595,
+    "request_size_bytes": 254,
+    "timestamp": "2025-01-15T10:00:21Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 522,
+    "response_size_bytes": 189,
+    "request_size_bytes": 474,
+    "timestamp": "2025-01-15T10:00:21Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 548,
+    "response_size_bytes": 550,
+    "request_size_bytes": 312,
+    "timestamp": "2025-01-15T10:00:21Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 1467,
+    "response_size_bytes": 881,
+    "request_size_bytes": 587,
+    "timestamp": "2025-01-15T10:00:21Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 675,
+    "response_size_bytes": 776,
+    "request_size_bytes": 256,
+    "timestamp": "2025-01-15T10:00:22Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 632,
+    "response_size_bytes": 42978,
+    "request_size_bytes": 313,
+    "timestamp": "2025-01-15T10:00:22Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 401,
+    "response_time_ms": 672,
+    "response_size_bytes": 419,
+    "request_size_bytes": 530,
+    "timestamp": "2025-01-15T10:00:23Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 360,
+    "response_size_bytes": 893,
+    "request_size_bytes": 581,
+    "timestamp": "2025-01-15T10:00:23Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 1188,
+    "response_size_bytes": 583,
+    "request_size_bytes": 101,
+    "timestamp": "2025-01-15T10:00:23Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 1073,
+    "response_size_bytes": 226,
+    "request_size_bytes": 117,
+    "timestamp": "2025-01-15T10:00:24Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 404,
+    "response_time_ms": 1283,
+    "response_size_bytes": 8144,
+    "request_size_bytes": 319,
+    "timestamp": "2025-01-15T10:00:24Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 1433,
+    "response_size_bytes": 203,
+    "request_size_bytes": 578,
+    "timestamp": "2025-01-15T10:00:24Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 404,
+    "response_time_ms": 550,
+    "response_size_bytes": 879,
+    "request_size_bytes": 333,
+    "timestamp": "2025-01-15T10:00:25Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 886,
+    "response_size_bytes": 433,
+    "request_size_bytes": 799,
+    "timestamp": "2025-01-15T10:00:25Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 461,
+    "response_size_bytes": 830,
+    "request_size_bytes": 760,
+    "timestamp": "2025-01-15T10:00:25Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 621,
+    "response_size_bytes": 40800,
+    "request_size_bytes": 228,
+    "timestamp": "2025-01-15T10:00:26Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 1304,
+    "response_size_bytes": 476,
+    "request_size_bytes": 558,
+    "timestamp": "2025-01-15T10:00:26Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 860,
+    "response_size_bytes": 794,
+    "request_size_bytes": 455,
+    "timestamp": "2025-01-15T10:00:26Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 430,
+    "response_size_bytes": 787,
+    "request_size_bytes": 742,
+    "timestamp": "2025-01-15T10:00:27Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 372,
+    "response_size_bytes": 576,
+    "request_size_bytes": 189,
+    "timestamp": "2025-01-15T10:00:27Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 796,
+    "response_size_bytes": 6359,
+    "request_size_bytes": 806,
+    "timestamp": "2025-01-15T10:00:27Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 324,
+    "response_size_bytes": 944,
+    "request_size_bytes": 936,
+    "timestamp": "2025-01-15T10:00:27Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 888,
+    "response_size_bytes": 515,
+    "request_size_bytes": 625,
+    "timestamp": "2025-01-15T10:00:27Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 1428,
+    "response_size_bytes": 342,
+    "request_size_bytes": 146,
+    "timestamp": "2025-01-15T10:00:28Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 461,
+    "response_size_bytes": 134,
+    "request_size_bytes": 615,
+    "timestamp": "2025-01-15T10:00:28Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 733,
+    "response_size_bytes": 19095,
+    "request_size_bytes": 737,
+    "timestamp": "2025-01-15T10:00:28Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 905,
+    "response_size_bytes": 485,
+    "request_size_bytes": 754,
+    "timestamp": "2025-01-15T10:00:28Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1160,
+    "response_size_bytes": 202,
+    "request_size_bytes": 474,
+    "timestamp": "2025-01-15T10:00:28Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 507,
+    "response_size_bytes": 372,
+    "request_size_bytes": 480,
+    "timestamp": "2025-01-15T10:00:29Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 500,
+    "response_time_ms": 1148,
+    "response_size_bytes": 476,
+    "request_size_bytes": 267,
+    "timestamp": "2025-01-15T10:00:29Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1001,
+    "response_size_bytes": 6869,
+    "request_size_bytes": 943,
+    "timestamp": "2025-01-15T10:00:29Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 727,
+    "response_size_bytes": 281,
+    "request_size_bytes": 847,
+    "timestamp": "2025-01-15T10:00:30Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 401,
+    "response_time_ms": 765,
+    "response_size_bytes": 977,
+    "request_size_bytes": 176,
+    "timestamp": "2025-01-15T10:00:30Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 1120,
+    "response_size_bytes": 895,
+    "request_size_bytes": 763,
+    "timestamp": "2025-01-15T10:00:30Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 981,
+    "response_size_bytes": 882,
+    "request_size_bytes": 691,
+    "timestamp": "2025-01-15T10:00:31Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 313,
+    "response_size_bytes": 37251,
+    "request_size_bytes": 327,
+    "timestamp": "2025-01-15T10:00:31Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 832,
+    "response_size_bytes": 231,
+    "request_size_bytes": 487,
+    "timestamp": "2025-01-15T10:00:31Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 404,
+    "response_time_ms": 191,
+    "response_size_bytes": 914,
+    "request_size_bytes": 429,
+    "timestamp": "2025-01-15T10:00:31Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 1146,
+    "response_size_bytes": 546,
+    "request_size_bytes": 761,
+    "timestamp": "2025-01-15T10:00:32Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1188,
+    "response_size_bytes": 981,
+    "request_size_bytes": 628,
+    "timestamp": "2025-01-15T10:00:32Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 860,
+    "response_size_bytes": 8029,
+    "request_size_bytes": 455,
+    "timestamp": "2025-01-15T10:00:32Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 327,
+    "response_size_bytes": 106,
+    "request_size_bytes": 633,
+    "timestamp": "2025-01-15T10:00:32Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 468,
+    "response_size_bytes": 711,
+    "request_size_bytes": 934,
+    "timestamp": "2025-01-15T10:00:33Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1275,
+    "response_size_bytes": 261,
+    "request_size_bytes": 679,
+    "timestamp": "2025-01-15T10:00:33Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 144,
+    "response_size_bytes": 148,
+    "request_size_bytes": 952,
+    "timestamp": "2025-01-15T10:00:33Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 1297,
+    "response_size_bytes": 26652,
+    "request_size_bytes": 163,
+    "timestamp": "2025-01-15T10:00:34Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1031,
+    "response_size_bytes": 742,
+    "request_size_bytes": 828,
+    "timestamp": "2025-01-15T10:00:34Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 673,
+    "response_size_bytes": 546,
+    "request_size_bytes": 858,
+    "timestamp": "2025-01-15T10:00:35Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 404,
+    "response_time_ms": 1243,
+    "response_size_bytes": 828,
+    "request_size_bytes": 279,
+    "timestamp": "2025-01-15T10:00:35Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 485,
+    "response_size_bytes": 676,
+    "request_size_bytes": 460,
+    "timestamp": "2025-01-15T10:00:35Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 404,
+    "response_time_ms": 462,
+    "response_size_bytes": 1533,
+    "request_size_bytes": 984,
+    "timestamp": "2025-01-15T10:00:35Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 1417,
+    "response_size_bytes": 158,
+    "request_size_bytes": 404,
+    "timestamp": "2025-01-15T10:00:35Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 1386,
+    "response_size_bytes": 429,
+    "request_size_bytes": 358,
+    "timestamp": "2025-01-15T10:00:36Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 248,
+    "response_size_bytes": 694,
+    "request_size_bytes": 156,
+    "timestamp": "2025-01-15T10:00:36Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 268,
+    "response_size_bytes": 348,
+    "request_size_bytes": 870,
+    "timestamp": "2025-01-15T10:00:36Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 548,
+    "response_size_bytes": 37273,
+    "request_size_bytes": 824,
+    "timestamp": "2025-01-15T10:00:37Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 404,
+    "response_time_ms": 1180,
+    "response_size_bytes": 725,
+    "request_size_bytes": 136,
+    "timestamp": "2025-01-15T10:00:37Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 400,
+    "response_time_ms": 390,
+    "response_size_bytes": 539,
+    "request_size_bytes": 489,
+    "timestamp": "2025-01-15T10:00:37Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 348,
+    "response_size_bytes": 991,
+    "request_size_bytes": 898,
+    "timestamp": "2025-01-15T10:00:37Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 1082,
+    "response_size_bytes": 452,
+    "request_size_bytes": 765,
+    "timestamp": "2025-01-15T10:00:37Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 964,
+    "response_size_bytes": 5198,
+    "request_size_bytes": 483,
+    "timestamp": "2025-01-15T10:00:37Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 179,
+    "response_size_bytes": 272,
+    "request_size_bytes": 756,
+    "timestamp": "2025-01-15T10:00:38Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1123,
+    "response_size_bytes": 255,
+    "request_size_bytes": 591,
+    "timestamp": "2025-01-15T10:00:38Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 661,
+    "response_size_bytes": 160,
+    "request_size_bytes": 616,
+    "timestamp": "2025-01-15T10:00:39Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 847,
+    "response_size_bytes": 100,
+    "request_size_bytes": 299,
+    "timestamp": "2025-01-15T10:00:39Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 1055,
+    "response_size_bytes": 38253,
+    "request_size_bytes": 649,
+    "timestamp": "2025-01-15T10:00:39Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 759,
+    "response_size_bytes": 188,
+    "request_size_bytes": 317,
+    "timestamp": "2025-01-15T10:00:40Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 704,
+    "response_size_bytes": 790,
+    "request_size_bytes": 692,
+    "timestamp": "2025-01-15T10:00:40Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 404,
+    "response_time_ms": 739,
+    "response_size_bytes": 316,
+    "request_size_bytes": 164,
+    "timestamp": "2025-01-15T10:00:40Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 1457,
+    "response_size_bytes": 997,
+    "request_size_bytes": 975,
+    "timestamp": "2025-01-15T10:00:40Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 1010,
+    "response_size_bytes": 7921,
+    "request_size_bytes": 588,
+    "timestamp": "2025-01-15T10:00:40Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 943,
+    "response_size_bytes": 256,
+    "request_size_bytes": 891,
+    "timestamp": "2025-01-15T10:00:41Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1081,
+    "response_size_bytes": 723,
+    "request_size_bytes": 234,
+    "timestamp": "2025-01-15T10:00:41Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 845,
+    "response_size_bytes": 401,
+    "request_size_bytes": 323,
+    "timestamp": "2025-01-15T10:00:42Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 774,
+    "response_size_bytes": 277,
+    "request_size_bytes": 838,
+    "timestamp": "2025-01-15T10:00:42Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 891,
+    "response_size_bytes": 25294,
+    "request_size_bytes": 638,
+    "timestamp": "2025-01-15T10:00:42Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 617,
+    "response_size_bytes": 133,
+    "request_size_bytes": 932,
+    "timestamp": "2025-01-15T10:00:42Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 965,
+    "response_size_bytes": 901,
+    "request_size_bytes": 528,
+    "timestamp": "2025-01-15T10:00:43Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 613,
+    "response_size_bytes": 941,
+    "request_size_bytes": 937,
+    "timestamp": "2025-01-15T10:00:43Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 259,
+    "response_size_bytes": 568,
+    "request_size_bytes": 877,
+    "timestamp": "2025-01-15T10:00:44Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 629,
+    "response_size_bytes": 6370,
+    "request_size_bytes": 721,
+    "timestamp": "2025-01-15T10:00:44Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 664,
+    "response_size_bytes": 475,
+    "request_size_bytes": 693,
+    "timestamp": "2025-01-15T10:00:44Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 1171,
+    "response_size_bytes": 685,
+    "request_size_bytes": 950,
+    "timestamp": "2025-01-15T10:00:44Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 577,
+    "response_size_bytes": 868,
+    "request_size_bytes": 393,
+    "timestamp": "2025-01-15T10:00:45Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 1129,
+    "response_size_bytes": 645,
+    "request_size_bytes": 476,
+    "timestamp": "2025-01-15T10:00:45Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 1208,
+    "response_size_bytes": 13560,
+    "request_size_bytes": 652,
+    "timestamp": "2025-01-15T10:00:45Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 828,
+    "response_size_bytes": 874,
+    "request_size_bytes": 434,
+    "timestamp": "2025-01-15T10:00:46Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 180,
+    "response_size_bytes": 852,
+    "request_size_bytes": 793,
+    "timestamp": "2025-01-15T10:00:46Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 102,
+    "response_size_bytes": 126,
+    "request_size_bytes": 374,
+    "timestamp": "2025-01-15T10:00:46Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1338,
+    "response_size_bytes": 828,
+    "request_size_bytes": 656,
+    "timestamp": "2025-01-15T10:00:47Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 740,
+    "response_size_bytes": 4410,
+    "request_size_bytes": 509,
+    "timestamp": "2025-01-15T10:00:47Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 713,
+    "response_size_bytes": 1001,
+    "request_size_bytes": 404,
+    "timestamp": "2025-01-15T10:00:47Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 601,
+    "response_size_bytes": 333,
+    "request_size_bytes": 135,
+    "timestamp": "2025-01-15T10:00:48Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 1283,
+    "response_size_bytes": 397,
+    "request_size_bytes": 442,
+    "timestamp": "2025-01-15T10:00:48Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 401,
+    "response_time_ms": 298,
+    "response_size_bytes": 324,
+    "request_size_bytes": 819,
+    "timestamp": "2025-01-15T10:00:48Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 404,
+    "response_time_ms": 357,
+    "response_size_bytes": 16136,
+    "request_size_bytes": 877,
+    "timestamp": "2025-01-15T10:00:48Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 755,
+    "response_size_bytes": 300,
+    "request_size_bytes": 850,
+    "timestamp": "2025-01-15T10:00:49Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 600,
+    "response_size_bytes": 563,
+    "request_size_bytes": 231,
+    "timestamp": "2025-01-15T10:00:49Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 1079,
+    "response_size_bytes": 383,
+    "request_size_bytes": 771,
+    "timestamp": "2025-01-15T10:00:49Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 940,
+    "response_size_bytes": 440,
+    "request_size_bytes": 480,
+    "timestamp": "2025-01-15T10:00:50Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 771,
+    "response_size_bytes": 5132,
+    "request_size_bytes": 655,
+    "timestamp": "2025-01-15T10:00:50Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 964,
+    "response_size_bytes": 579,
+    "request_size_bytes": 625,
+    "timestamp": "2025-01-15T10:00:50Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 955,
+    "response_size_bytes": 305,
+    "request_size_bytes": 102,
+    "timestamp": "2025-01-15T10:00:50Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 227,
+    "response_size_bytes": 510,
+    "request_size_bytes": 145,
+    "timestamp": "2025-01-15T10:00:50Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 282,
+    "response_size_bytes": 395,
+    "request_size_bytes": 155,
+    "timestamp": "2025-01-15T10:00:51Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 601,
+    "response_size_bytes": 46136,
+    "request_size_bytes": 833,
+    "timestamp": "2025-01-15T10:00:51Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 769,
+    "response_size_bytes": 646,
+    "request_size_bytes": 966,
+    "timestamp": "2025-01-15T10:00:52Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 993,
+    "response_size_bytes": 351,
+    "request_size_bytes": 280,
+    "timestamp": "2025-01-15T10:00:52Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 194,
+    "response_size_bytes": 589,
+    "request_size_bytes": 259,
+    "timestamp": "2025-01-15T10:00:53Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 772,
+    "response_size_bytes": 296,
+    "request_size_bytes": 399,
+    "timestamp": "2025-01-15T10:00:53Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 1352,
+    "response_size_bytes": 3010,
+    "request_size_bytes": 875,
+    "timestamp": "2025-01-15T10:00:53Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1229,
+    "response_size_bytes": 156,
+    "request_size_bytes": 389,
+    "timestamp": "2025-01-15T10:00:54Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 500,
+    "response_time_ms": 435,
+    "response_size_bytes": 462,
+    "request_size_bytes": 954,
+    "timestamp": "2025-01-15T10:00:54Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 1230,
+    "response_size_bytes": 516,
+    "request_size_bytes": 422,
+    "timestamp": "2025-01-15T10:00:55Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1088,
+    "response_size_bytes": 106,
+    "request_size_bytes": 838,
+    "timestamp": "2025-01-15T10:00:55Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 570,
+    "response_size_bytes": 19540,
+    "request_size_bytes": 239,
+    "timestamp": "2025-01-15T10:00:55Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 377,
+    "response_size_bytes": 839,
+    "request_size_bytes": 368,
+    "timestamp": "2025-01-15T10:00:56Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 503,
+    "response_time_ms": 1356,
+    "response_size_bytes": 421,
+    "request_size_bytes": 922,
+    "timestamp": "2025-01-15T10:00:56Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 539,
+    "response_size_bytes": 206,
+    "request_size_bytes": 901,
+    "timestamp": "2025-01-15T10:00:56Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 970,
+    "response_size_bytes": 286,
+    "request_size_bytes": 957,
+    "timestamp": "2025-01-15T10:00:57Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 661,
+    "response_size_bytes": 9270,
+    "request_size_bytes": 160,
+    "timestamp": "2025-01-15T10:00:57Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 1469,
+    "response_size_bytes": 211,
+    "request_size_bytes": 596,
+    "timestamp": "2025-01-15T10:00:57Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 1074,
+    "response_size_bytes": 838,
+    "request_size_bytes": 793,
+    "timestamp": "2025-01-15T10:00:57Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 639,
+    "response_size_bytes": 894,
+    "request_size_bytes": 892,
+    "timestamp": "2025-01-15T10:00:58Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 1162,
+    "response_size_bytes": 553,
+    "request_size_bytes": 380,
+    "timestamp": "2025-01-15T10:00:58Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 1000,
+    "response_size_bytes": 48180,
+    "request_size_bytes": 525,
+    "timestamp": "2025-01-15T10:00:58Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 576,
+    "response_size_bytes": 268,
+    "request_size_bytes": 136,
+    "timestamp": "2025-01-15T10:00:59Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 1482,
+    "response_size_bytes": 765,
+    "request_size_bytes": 344,
+    "timestamp": "2025-01-15T10:00:59Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 1043,
+    "response_size_bytes": 387,
+    "request_size_bytes": 584,
+    "timestamp": "2025-01-15T10:01:00Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 1126,
+    "response_size_bytes": 964,
+    "request_size_bytes": 216,
+    "timestamp": "2025-01-15T10:01:00Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 1306,
+    "response_size_bytes": 6078,
+    "request_size_bytes": 657,
+    "timestamp": "2025-01-15T10:01:00Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 462,
+    "response_size_bytes": 214,
+    "request_size_bytes": 164,
+    "timestamp": "2025-01-15T10:01:00Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 400,
+    "response_time_ms": 208,
+    "response_size_bytes": 361,
+    "request_size_bytes": 575,
+    "timestamp": "2025-01-15T10:01:01Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 411,
+    "response_size_bytes": 317,
+    "request_size_bytes": 764,
+    "timestamp": "2025-01-15T10:01:01Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1120,
+    "response_size_bytes": 797,
+    "request_size_bytes": 400,
+    "timestamp": "2025-01-15T10:01:01Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 414,
+    "response_size_bytes": 23506,
+    "request_size_bytes": 373,
+    "timestamp": "2025-01-15T10:01:01Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 848,
+    "response_size_bytes": 996,
+    "request_size_bytes": 119,
+    "timestamp": "2025-01-15T10:01:02Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 980,
+    "response_size_bytes": 675,
+    "request_size_bytes": 475,
+    "timestamp": "2025-01-15T10:01:02Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 477,
+    "response_size_bytes": 131,
+    "request_size_bytes": 460,
+    "timestamp": "2025-01-15T10:01:03Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 721,
+    "response_size_bytes": 927,
+    "request_size_bytes": 757,
+    "timestamp": "2025-01-15T10:01:03Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 1152,
+    "response_size_bytes": 4983,
+    "request_size_bytes": 300,
+    "timestamp": "2025-01-15T10:01:03Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 1049,
+    "response_size_bytes": 632,
+    "request_size_bytes": 949,
+    "timestamp": "2025-01-15T10:01:04Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 503,
+    "response_time_ms": 758,
+    "response_size_bytes": 254,
+    "request_size_bytes": 266,
+    "timestamp": "2025-01-15T10:01:04Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 404,
+    "response_time_ms": 145,
+    "response_size_bytes": 815,
+    "request_size_bytes": 586,
+    "timestamp": "2025-01-15T10:01:04Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 404,
+    "response_time_ms": 562,
+    "response_size_bytes": 313,
+    "request_size_bytes": 932,
+    "timestamp": "2025-01-15T10:01:05Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 1467,
+    "response_size_bytes": 22344,
+    "request_size_bytes": 573,
+    "timestamp": "2025-01-15T10:01:05Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 1368,
+    "response_size_bytes": 934,
+    "request_size_bytes": 617,
+    "timestamp": "2025-01-15T10:01:06Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 577,
+    "response_size_bytes": 231,
+    "request_size_bytes": 951,
+    "timestamp": "2025-01-15T10:01:06Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 958,
+    "response_size_bytes": 808,
+    "request_size_bytes": 996,
+    "timestamp": "2025-01-15T10:01:06Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 531,
+    "response_size_bytes": 637,
+    "request_size_bytes": 102,
+    "timestamp": "2025-01-15T10:01:06Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 244,
+    "response_size_bytes": 8571,
+    "request_size_bytes": 804,
+    "timestamp": "2025-01-15T10:01:07Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 890,
+    "response_size_bytes": 486,
+    "request_size_bytes": 673,
+    "timestamp": "2025-01-15T10:01:07Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 766,
+    "response_size_bytes": 435,
+    "request_size_bytes": 265,
+    "timestamp": "2025-01-15T10:01:07Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 957,
+    "response_size_bytes": 780,
+    "request_size_bytes": 845,
+    "timestamp": "2025-01-15T10:01:08Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 311,
+    "response_size_bytes": 951,
+    "request_size_bytes": 669,
+    "timestamp": "2025-01-15T10:01:08Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 1229,
+    "response_size_bytes": 37757,
+    "request_size_bytes": 973,
+    "timestamp": "2025-01-15T10:01:08Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 1312,
+    "response_size_bytes": 643,
+    "request_size_bytes": 736,
+    "timestamp": "2025-01-15T10:01:08Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 388,
+    "response_size_bytes": 845,
+    "request_size_bytes": 857,
+    "timestamp": "2025-01-15T10:01:09Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 1194,
+    "response_size_bytes": 896,
+    "request_size_bytes": 464,
+    "timestamp": "2025-01-15T10:01:09Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 400,
+    "response_time_ms": 780,
+    "response_size_bytes": 570,
+    "request_size_bytes": 215,
+    "timestamp": "2025-01-15T10:01:09Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 807,
+    "response_size_bytes": 8498,
+    "request_size_bytes": 105,
+    "timestamp": "2025-01-15T10:01:10Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1033,
+    "response_size_bytes": 802,
+    "request_size_bytes": 197,
+    "timestamp": "2025-01-15T10:01:10Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 753,
+    "response_size_bytes": 554,
+    "request_size_bytes": 325,
+    "timestamp": "2025-01-15T10:01:10Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 554,
+    "response_size_bytes": 883,
+    "request_size_bytes": 306,
+    "timestamp": "2025-01-15T10:01:11Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 418,
+    "response_size_bytes": 278,
+    "request_size_bytes": 230,
+    "timestamp": "2025-01-15T10:01:11Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 1368,
+    "response_size_bytes": 48470,
+    "request_size_bytes": 601,
+    "timestamp": "2025-01-15T10:01:11Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 766,
+    "response_size_bytes": 283,
+    "request_size_bytes": 475,
+    "timestamp": "2025-01-15T10:01:12Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 1032,
+    "response_size_bytes": 723,
+    "request_size_bytes": 624,
+    "timestamp": "2025-01-15T10:01:12Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 273,
+    "response_size_bytes": 789,
+    "request_size_bytes": 662,
+    "timestamp": "2025-01-15T10:01:12Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1035,
+    "response_size_bytes": 563,
+    "request_size_bytes": 195,
+    "timestamp": "2025-01-15T10:01:13Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 447,
+    "response_size_bytes": 1661,
+    "request_size_bytes": 858,
+    "timestamp": "2025-01-15T10:01:13Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 1233,
+    "response_size_bytes": 489,
+    "request_size_bytes": 205,
+    "timestamp": "2025-01-15T10:01:13Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 529,
+    "response_size_bytes": 805,
+    "request_size_bytes": 832,
+    "timestamp": "2025-01-15T10:01:13Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 736,
+    "response_size_bytes": 755,
+    "request_size_bytes": 370,
+    "timestamp": "2025-01-15T10:01:14Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1148,
+    "response_size_bytes": 943,
+    "request_size_bytes": 742,
+    "timestamp": "2025-01-15T10:01:14Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 503,
+    "response_time_ms": 488,
+    "response_size_bytes": 36924,
+    "request_size_bytes": 644,
+    "timestamp": "2025-01-15T10:01:14Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 227,
+    "response_size_bytes": 652,
+    "request_size_bytes": 445,
+    "timestamp": "2025-01-15T10:01:15Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 581,
+    "response_size_bytes": 179,
+    "request_size_bytes": 561,
+    "timestamp": "2025-01-15T10:01:15Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 565,
+    "response_size_bytes": 725,
+    "request_size_bytes": 601,
+    "timestamp": "2025-01-15T10:01:15Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 118,
+    "response_size_bytes": 733,
+    "request_size_bytes": 250,
+    "timestamp": "2025-01-15T10:01:15Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 1472,
+    "response_size_bytes": 8441,
+    "request_size_bytes": 197,
+    "timestamp": "2025-01-15T10:01:16Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 722,
+    "response_size_bytes": 694,
+    "request_size_bytes": 247,
+    "timestamp": "2025-01-15T10:01:16Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1182,
+    "response_size_bytes": 1021,
+    "request_size_bytes": 616,
+    "timestamp": "2025-01-15T10:01:16Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 1304,
+    "response_size_bytes": 221,
+    "request_size_bytes": 779,
+    "timestamp": "2025-01-15T10:01:16Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 731,
+    "response_size_bytes": 181,
+    "request_size_bytes": 555,
+    "timestamp": "2025-01-15T10:01:17Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 593,
+    "response_size_bytes": 30962,
+    "request_size_bytes": 988,
+    "timestamp": "2025-01-15T10:01:17Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 301,
+    "response_size_bytes": 602,
+    "request_size_bytes": 790,
+    "timestamp": "2025-01-15T10:01:17Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 811,
+    "response_size_bytes": 336,
+    "request_size_bytes": 886,
+    "timestamp": "2025-01-15T10:01:18Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 361,
+    "response_size_bytes": 779,
+    "request_size_bytes": 849,
+    "timestamp": "2025-01-15T10:01:18Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 606,
+    "response_size_bytes": 470,
+    "request_size_bytes": 357,
+    "timestamp": "2025-01-15T10:01:18Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1358,
+    "response_size_bytes": 2730,
+    "request_size_bytes": 631,
+    "timestamp": "2025-01-15T10:01:19Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 1237,
+    "response_size_bytes": 868,
+    "request_size_bytes": 128,
+    "timestamp": "2025-01-15T10:01:19Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 401,
+    "response_time_ms": 990,
+    "response_size_bytes": 962,
+    "request_size_bytes": 334,
+    "timestamp": "2025-01-15T10:01:19Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 1067,
+    "response_size_bytes": 416,
+    "request_size_bytes": 105,
+    "timestamp": "2025-01-15T10:01:19Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 736,
+    "response_size_bytes": 673,
+    "request_size_bytes": 965,
+    "timestamp": "2025-01-15T10:01:20Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1117,
+    "response_size_bytes": 22274,
+    "request_size_bytes": 300,
+    "timestamp": "2025-01-15T10:01:20Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 1275,
+    "response_size_bytes": 835,
+    "request_size_bytes": 127,
+    "timestamp": "2025-01-15T10:01:20Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 1446,
+    "response_size_bytes": 686,
+    "request_size_bytes": 590,
+    "timestamp": "2025-01-15T10:01:20Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 1017,
+    "response_size_bytes": 169,
+    "request_size_bytes": 432,
+    "timestamp": "2025-01-15T10:01:21Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 484,
+    "response_size_bytes": 643,
+    "request_size_bytes": 245,
+    "timestamp": "2025-01-15T10:01:21Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 1422,
+    "response_size_bytes": 1869,
+    "request_size_bytes": 270,
+    "timestamp": "2025-01-15T10:01:22Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 503,
+    "response_time_ms": 987,
+    "response_size_bytes": 924,
+    "request_size_bytes": 935,
+    "timestamp": "2025-01-15T10:01:22Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 191,
+    "response_size_bytes": 538,
+    "request_size_bytes": 717,
+    "timestamp": "2025-01-15T10:01:22Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 348,
+    "response_size_bytes": 272,
+    "request_size_bytes": 859,
+    "timestamp": "2025-01-15T10:01:23Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 1330,
+    "response_size_bytes": 448,
+    "request_size_bytes": 369,
+    "timestamp": "2025-01-15T10:01:23Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 1127,
+    "response_size_bytes": 10797,
+    "request_size_bytes": 895,
+    "timestamp": "2025-01-15T10:01:24Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 402,
+    "response_size_bytes": 128,
+    "request_size_bytes": 856,
+    "timestamp": "2025-01-15T10:01:24Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 578,
+    "response_size_bytes": 719,
+    "request_size_bytes": 883,
+    "timestamp": "2025-01-15T10:01:24Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 973,
+    "response_size_bytes": 722,
+    "request_size_bytes": 244,
+    "timestamp": "2025-01-15T10:01:25Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 1000,
+    "response_size_bytes": 1006,
+    "request_size_bytes": 972,
+    "timestamp": "2025-01-15T10:01:25Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 841,
+    "response_size_bytes": 3686,
+    "request_size_bytes": 892,
+    "timestamp": "2025-01-15T10:01:25Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 785,
+    "response_size_bytes": 1009,
+    "request_size_bytes": 722,
+    "timestamp": "2025-01-15T10:01:26Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 1043,
+    "response_size_bytes": 190,
+    "request_size_bytes": 629,
+    "timestamp": "2025-01-15T10:01:26Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 1148,
+    "response_size_bytes": 115,
+    "request_size_bytes": 111,
+    "timestamp": "2025-01-15T10:01:27Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 326,
+    "response_size_bytes": 472,
+    "request_size_bytes": 332,
+    "timestamp": "2025-01-15T10:01:27Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 628,
+    "response_size_bytes": 14248,
+    "request_size_bytes": 867,
+    "timestamp": "2025-01-15T10:01:27Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 1482,
+    "response_size_bytes": 436,
+    "request_size_bytes": 501,
+    "timestamp": "2025-01-15T10:01:28Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 395,
+    "response_size_bytes": 385,
+    "request_size_bytes": 463,
+    "timestamp": "2025-01-15T10:01:28Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 1468,
+    "response_size_bytes": 753,
+    "request_size_bytes": 315,
+    "timestamp": "2025-01-15T10:01:28Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 336,
+    "response_size_bytes": 384,
+    "request_size_bytes": 290,
+    "timestamp": "2025-01-15T10:01:28Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 100,
+    "response_size_bytes": 3916,
+    "request_size_bytes": 308,
+    "timestamp": "2025-01-15T10:01:29Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1389,
+    "response_size_bytes": 727,
+    "request_size_bytes": 210,
+    "timestamp": "2025-01-15T10:01:29Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 777,
+    "response_size_bytes": 504,
+    "request_size_bytes": 161,
+    "timestamp": "2025-01-15T10:01:29Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 930,
+    "response_size_bytes": 927,
+    "request_size_bytes": 683,
+    "timestamp": "2025-01-15T10:01:29Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 1099,
+    "response_size_bytes": 944,
+    "request_size_bytes": 413,
+    "timestamp": "2025-01-15T10:01:30Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 1195,
+    "response_size_bytes": 41640,
+    "request_size_bytes": 820,
+    "timestamp": "2025-01-15T10:01:30Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 514,
+    "response_size_bytes": 628,
+    "request_size_bytes": 609,
+    "timestamp": "2025-01-15T10:01:30Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 1075,
+    "response_size_bytes": 656,
+    "request_size_bytes": 569,
+    "timestamp": "2025-01-15T10:01:31Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 1115,
+    "response_size_bytes": 616,
+    "request_size_bytes": 410,
+    "timestamp": "2025-01-15T10:01:31Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 297,
+    "response_size_bytes": 388,
+    "request_size_bytes": 758,
+    "timestamp": "2025-01-15T10:01:31Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 122,
+    "response_size_bytes": 9618,
+    "request_size_bytes": 427,
+    "timestamp": "2025-01-15T10:01:31Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 776,
+    "response_size_bytes": 514,
+    "request_size_bytes": 679,
+    "timestamp": "2025-01-15T10:01:32Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 359,
+    "response_size_bytes": 722,
+    "request_size_bytes": 145,
+    "timestamp": "2025-01-15T10:01:32Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 635,
+    "response_size_bytes": 604,
+    "request_size_bytes": 464,
+    "timestamp": "2025-01-15T10:01:32Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 140,
+    "response_size_bytes": 159,
+    "request_size_bytes": 939,
+    "timestamp": "2025-01-15T10:01:32Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/orders",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 966,
+    "response_size_bytes": 22624,
+    "request_size_bytes": 812,
+    "timestamp": "2025-01-15T10:01:33Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 798,
+    "response_size_bytes": 341,
+    "request_size_bytes": 882,
+    "timestamp": "2025-01-15T10:01:33Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 913,
+    "response_size_bytes": 227,
+    "request_size_bytes": 759,
+    "timestamp": "2025-01-15T10:01:33Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 1096,
+    "response_size_bytes": 101,
+    "request_size_bytes": 589,
+    "timestamp": "2025-01-15T10:01:33Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 507,
+    "response_size_bytes": 577,
+    "request_size_bytes": 421,
+    "timestamp": "2025-01-15T10:01:33Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 1467,
+    "response_size_bytes": 8968,
+    "request_size_bytes": 584,
+    "timestamp": "2025-01-15T10:01:34Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 604,
+    "response_size_bytes": 984,
+    "request_size_bytes": 952,
+    "timestamp": "2025-01-15T10:01:34Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 409,
+    "response_size_bytes": 767,
+    "request_size_bytes": 938,
+    "timestamp": "2025-01-15T10:01:34Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 841,
+    "response_size_bytes": 578,
+    "request_size_bytes": 769,
+    "timestamp": "2025-01-15T10:01:35Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 1088,
+    "response_size_bytes": 849,
+    "request_size_bytes": 366,
+    "timestamp": "2025-01-15T10:01:35Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1224,
+    "response_size_bytes": 44115,
+    "request_size_bytes": 627,
+    "timestamp": "2025-01-15T10:01:35Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 621,
+    "response_size_bytes": 623,
+    "request_size_bytes": 702,
+    "timestamp": "2025-01-15T10:01:36Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 308,
+    "response_size_bytes": 548,
+    "request_size_bytes": 593,
+    "timestamp": "2025-01-15T10:01:36Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 1321,
+    "response_size_bytes": 881,
+    "request_size_bytes": 299,
+    "timestamp": "2025-01-15T10:01:36Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1129,
+    "response_size_bytes": 960,
+    "request_size_bytes": 122,
+    "timestamp": "2025-01-15T10:01:37Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 1344,
+    "response_size_bytes": 3598,
+    "request_size_bytes": 823,
+    "timestamp": "2025-01-15T10:01:37Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 1371,
+    "response_size_bytes": 456,
+    "request_size_bytes": 636,
+    "timestamp": "2025-01-15T10:01:37Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 222,
+    "response_size_bytes": 286,
+    "request_size_bytes": 881,
+    "timestamp": "2025-01-15T10:01:37Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 926,
+    "response_size_bytes": 930,
+    "request_size_bytes": 329,
+    "timestamp": "2025-01-15T10:01:37Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 503,
+    "response_time_ms": 1231,
+    "response_size_bytes": 674,
+    "request_size_bytes": 958,
+    "timestamp": "2025-01-15T10:01:38Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 1119,
+    "response_size_bytes": 12258,
+    "request_size_bytes": 289,
+    "timestamp": "2025-01-15T10:01:38Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 401,
+    "response_time_ms": 1209,
+    "response_size_bytes": 180,
+    "request_size_bytes": 108,
+    "timestamp": "2025-01-15T10:01:38Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 1212,
+    "response_size_bytes": 818,
+    "request_size_bytes": 408,
+    "timestamp": "2025-01-15T10:01:38Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 195,
+    "response_size_bytes": 988,
+    "request_size_bytes": 575,
+    "timestamp": "2025-01-15T10:01:39Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 735,
+    "response_size_bytes": 711,
+    "request_size_bytes": 998,
+    "timestamp": "2025-01-15T10:01:39Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1448,
+    "response_size_bytes": 6790,
+    "request_size_bytes": 384,
+    "timestamp": "2025-01-15T10:01:39Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 523,
+    "response_size_bytes": 687,
+    "request_size_bytes": 961,
+    "timestamp": "2025-01-15T10:01:40Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 1435,
+    "response_size_bytes": 655,
+    "request_size_bytes": 279,
+    "timestamp": "2025-01-15T10:01:40Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 466,
+    "response_size_bytes": 427,
+    "request_size_bytes": 266,
+    "timestamp": "2025-01-15T10:01:40Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 400,
+    "response_time_ms": 352,
+    "response_size_bytes": 854,
+    "request_size_bytes": 109,
+    "timestamp": "2025-01-15T10:01:41Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 878,
+    "response_size_bytes": 45476,
+    "request_size_bytes": 586,
+    "timestamp": "2025-01-15T10:01:41Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 1383,
+    "response_size_bytes": 947,
+    "request_size_bytes": 160,
+    "timestamp": "2025-01-15T10:01:42Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 318,
+    "response_size_bytes": 779,
+    "request_size_bytes": 797,
+    "timestamp": "2025-01-15T10:01:42Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 330,
+    "response_size_bytes": 917,
+    "request_size_bytes": 778,
+    "timestamp": "2025-01-15T10:01:42Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 401,
+    "response_time_ms": 533,
+    "response_size_bytes": 288,
+    "request_size_bytes": 732,
+    "timestamp": "2025-01-15T10:01:42Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 1275,
+    "response_size_bytes": 8143,
+    "request_size_bytes": 428,
+    "timestamp": "2025-01-15T10:01:43Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 1052,
+    "response_size_bytes": 638,
+    "request_size_bytes": 565,
+    "timestamp": "2025-01-15T10:01:43Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/users",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 484,
+    "response_size_bytes": 223,
+    "request_size_bytes": 769,
+    "timestamp": "2025-01-15T10:01:43Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 689,
+    "response_size_bytes": 438,
+    "request_size_bytes": 183,
+    "timestamp": "2025-01-15T10:01:44Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 676,
+    "response_size_bytes": 954,
+    "request_size_bytes": 830,
+    "timestamp": "2025-01-15T10:01:44Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 595,
+    "response_size_bytes": 39627,
+    "request_size_bytes": 771,
+    "timestamp": "2025-01-15T10:01:44Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 404,
+    "response_time_ms": 462,
+    "response_size_bytes": 359,
+    "request_size_bytes": 507,
+    "timestamp": "2025-01-15T10:01:44Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 160,
+    "response_size_bytes": 399,
+    "request_size_bytes": 270,
+    "timestamp": "2025-01-15T10:01:45Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 163,
+    "response_size_bytes": 982,
+    "request_size_bytes": 475,
+    "timestamp": "2025-01-15T10:01:45Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 138,
+    "response_size_bytes": 892,
+    "request_size_bytes": 636,
+    "timestamp": "2025-01-15T10:01:46Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 117,
+    "response_size_bytes": 9789,
+    "request_size_bytes": 188,
+    "timestamp": "2025-01-15T10:01:46Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 101,
+    "response_size_bytes": 800,
+    "request_size_bytes": 678,
+    "timestamp": "2025-01-15T10:01:46Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 1146,
+    "response_size_bytes": 389,
+    "request_size_bytes": 776,
+    "timestamp": "2025-01-15T10:01:47Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 719,
+    "response_size_bytes": 252,
+    "request_size_bytes": 137,
+    "timestamp": "2025-01-15T10:01:47Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 594,
+    "response_size_bytes": 299,
+    "request_size_bytes": 896,
+    "timestamp": "2025-01-15T10:01:47Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 1122,
+    "response_size_bytes": 24258,
+    "request_size_bytes": 518,
+    "timestamp": "2025-01-15T10:01:47Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 1359,
+    "response_size_bytes": 406,
+    "request_size_bytes": 577,
+    "timestamp": "2025-01-15T10:01:48Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 503,
+    "response_time_ms": 326,
+    "response_size_bytes": 335,
+    "request_size_bytes": 199,
+    "timestamp": "2025-01-15T10:01:48Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 1206,
+    "response_size_bytes": 710,
+    "request_size_bytes": 895,
+    "timestamp": "2025-01-15T10:01:48Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 1246,
+    "response_size_bytes": 782,
+    "request_size_bytes": 577,
+    "timestamp": "2025-01-15T10:01:49Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 860,
+    "response_size_bytes": 7373,
+    "request_size_bytes": 262,
+    "timestamp": "2025-01-15T10:01:49Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 648,
+    "response_size_bytes": 686,
+    "request_size_bytes": 407,
+    "timestamp": "2025-01-15T10:01:49Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 503,
+    "response_time_ms": 1091,
+    "response_size_bytes": 866,
+    "request_size_bytes": 713,
+    "timestamp": "2025-01-15T10:01:49Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 1186,
+    "response_size_bytes": 206,
+    "request_size_bytes": 996,
+    "timestamp": "2025-01-15T10:01:50Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 714,
+    "response_size_bytes": 836,
+    "request_size_bytes": 503,
+    "timestamp": "2025-01-15T10:01:50Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/users",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 786,
+    "response_size_bytes": 49152,
+    "request_size_bytes": 760,
+    "timestamp": "2025-01-15T10:01:50Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 201,
+    "response_time_ms": 1180,
+    "response_size_bytes": 420,
+    "request_size_bytes": 566,
+    "timestamp": "2025-01-15T10:01:51Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/auth",
+    "method": "DELETE",
+    "status_code": 200,
+    "response_time_ms": 1448,
+    "response_size_bytes": 967,
+    "request_size_bytes": 268,
+    "timestamp": "2025-01-15T10:01:51Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 1356,
+    "response_size_bytes": 355,
+    "request_size_bytes": 138,
+    "timestamp": "2025-01-15T10:01:51Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 133,
+    "response_size_bytes": 186,
+    "request_size_bytes": 833,
+    "timestamp": "2025-01-15T10:01:51Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 202,
+    "response_time_ms": 298,
+    "response_size_bytes": 5030,
+    "request_size_bytes": 712,
+    "timestamp": "2025-01-15T10:01:52Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/search",
+    "method": "POST",
+    "status_code": 202,
+    "response_time_ms": 882,
+    "response_size_bytes": 307,
+    "request_size_bytes": 125,
+    "timestamp": "2025-01-15T10:01:52Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 204,
+    "response_time_ms": 666,
+    "response_size_bytes": 933,
+    "request_size_bytes": 745,
+    "timestamp": "2025-01-15T10:01:52Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 1195,
+    "response_size_bytes": 865,
+    "request_size_bytes": 309,
+    "timestamp": "2025-01-15T10:01:53Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 1475,
+    "response_size_bytes": 927,
+    "request_size_bytes": 873,
+    "timestamp": "2025-01-15T10:01:53Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 500,
+    "response_time_ms": 345,
+    "response_size_bytes": 16185,
+    "request_size_bytes": 564,
+    "timestamp": "2025-01-15T10:01:53Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 988,
+    "response_size_bytes": 606,
+    "request_size_bytes": 604,
+    "timestamp": "2025-01-15T10:01:54Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 1156,
+    "response_size_bytes": 530,
+    "request_size_bytes": 443,
+    "timestamp": "2025-01-15T10:01:54Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 204,
+    "response_time_ms": 495,
+    "response_size_bytes": 418,
+    "request_size_bytes": 953,
+    "timestamp": "2025-01-15T10:01:54Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 854,
+    "response_size_bytes": 950,
+    "request_size_bytes": 871,
+    "timestamp": "2025-01-15T10:01:54Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/orders",
+    "method": "DELETE",
+    "status_code": 204,
+    "response_time_ms": 383,
+    "response_size_bytes": 4254,
+    "request_size_bytes": 906,
+    "timestamp": "2025-01-15T10:01:55Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/orders",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 1229,
+    "response_size_bytes": 278,
+    "request_size_bytes": 746,
+    "timestamp": "2025-01-15T10:01:55Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/users",
+    "method": "PUT",
+    "status_code": 201,
+    "response_time_ms": 288,
+    "response_size_bytes": 649,
+    "request_size_bytes": 252,
+    "timestamp": "2025-01-15T10:01:55Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 699,
+    "response_size_bytes": 453,
+    "request_size_bytes": 273,
+    "timestamp": "2025-01-15T10:01:56Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 201,
+    "response_time_ms": 1195,
+    "response_size_bytes": 920,
+    "request_size_bytes": 347,
+    "timestamp": "2025-01-15T10:01:56Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 1191,
+    "response_size_bytes": 22468,
+    "request_size_bytes": 967,
+    "timestamp": "2025-01-15T10:01:56Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 202,
+    "response_time_ms": 1195,
+    "response_size_bytes": 567,
+    "request_size_bytes": 917,
+    "timestamp": "2025-01-15T10:01:57Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/search",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 501,
+    "response_size_bytes": 487,
+    "request_size_bytes": 842,
+    "timestamp": "2025-01-15T10:01:57Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 204,
+    "response_time_ms": 891,
+    "response_size_bytes": 469,
+    "request_size_bytes": 678,
+    "timestamp": "2025-01-15T10:01:57Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/products",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 350,
+    "response_size_bytes": 148,
+    "request_size_bytes": 774,
+    "timestamp": "2025-01-15T10:01:57Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/products",
+    "method": "POST",
+    "status_code": 200,
+    "response_time_ms": 818,
+    "response_size_bytes": 1060,
+    "request_size_bytes": 883,
+    "timestamp": "2025-01-15T10:01:58Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/auth",
+    "method": "POST",
+    "status_code": 201,
+    "response_time_ms": 734,
+    "response_size_bytes": 878,
+    "request_size_bytes": 623,
+    "timestamp": "2025-01-15T10:01:58Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/auth",
+    "method": "PUT",
+    "status_code": 200,
+    "response_time_ms": 701,
+    "response_size_bytes": 221,
+    "request_size_bytes": 601,
+    "timestamp": "2025-01-15T10:01:58Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 1274,
+    "response_size_bytes": 855,
+    "request_size_bytes": 808,
+    "timestamp": "2025-01-15T10:01:58Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/products",
+    "method": "DELETE",
+    "status_code": 202,
+    "response_time_ms": 1406,
+    "response_size_bytes": 550,
+    "request_size_bytes": 411,
+    "timestamp": "2025-01-15T10:01:58Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 118,
+    "response_size_bytes": 219,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:22Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 186,
+    "response_size_bytes": 125,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:17Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 195,
+    "response_size_bytes": 335,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:15Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 153,
+    "response_size_bytes": 315,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:14Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 80,
+    "response_size_bytes": 261,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:19Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 172,
+    "response_size_bytes": 163,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:22Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 183,
+    "response_size_bytes": 195,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:13Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 188,
+    "response_size_bytes": 499,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:02Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 146,
+    "response_size_bytes": 217,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:08Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 160,
+    "response_size_bytes": 240,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:24Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 197,
+    "response_size_bytes": 418,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:01Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 97,
+    "response_size_bytes": 445,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:01Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 73,
+    "response_size_bytes": 280,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:12Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 120,
+    "response_size_bytes": 224,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:20Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 166,
+    "response_size_bytes": 408,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:13Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 56,
+    "response_size_bytes": 101,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:09Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 61,
+    "response_size_bytes": 263,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:16Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 155,
+    "response_size_bytes": 154,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:14Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 100,
+    "response_size_bytes": 270,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:08Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 173,
+    "response_size_bytes": 234,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:06Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 84,
+    "response_size_bytes": 318,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:01Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 77,
+    "response_size_bytes": 288,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:17Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 200,
+    "response_size_bytes": 178,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:01Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 146,
+    "response_size_bytes": 322,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:26Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 148,
+    "response_size_bytes": 168,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:16Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 161,
+    "response_size_bytes": 474,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:16Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 65,
+    "response_size_bytes": 477,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:14Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 149,
+    "response_size_bytes": 400,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:07Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 164,
+    "response_size_bytes": 152,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:25Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 195,
+    "response_size_bytes": 315,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:18Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 123,
+    "response_size_bytes": 444,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:08Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 80,
+    "response_size_bytes": 264,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:01Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 93,
+    "response_size_bytes": 439,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:28Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 82,
+    "response_size_bytes": 272,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:24Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 175,
+    "response_size_bytes": 221,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:00Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 139,
+    "response_size_bytes": 438,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:06Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 153,
+    "response_size_bytes": 301,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:11Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 124,
+    "response_size_bytes": 257,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:13Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 59,
+    "response_size_bytes": 189,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:20Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 193,
+    "response_size_bytes": 244,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:24Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 146,
+    "response_size_bytes": 150,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:05Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 101,
+    "response_size_bytes": 237,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:06Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 103,
+    "response_size_bytes": 406,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:13Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 69,
+    "response_size_bytes": 127,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:07Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 137,
+    "response_size_bytes": 488,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:06Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 131,
+    "response_size_bytes": 425,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:19Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 92,
+    "response_size_bytes": 381,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:24Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 110,
+    "response_size_bytes": 369,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:01Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 53,
+    "response_size_bytes": 164,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:02Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 70,
+    "response_size_bytes": 355,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:01Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 60,
+    "response_size_bytes": 103,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:19Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 190,
+    "response_size_bytes": 107,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:08Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 183,
+    "response_size_bytes": 387,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:02Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 171,
+    "response_size_bytes": 100,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:28Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 150,
+    "response_size_bytes": 305,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:08Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 186,
+    "response_size_bytes": 434,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:04Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 114,
+    "response_size_bytes": 385,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:26Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 162,
+    "response_size_bytes": 207,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:10Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 91,
+    "response_size_bytes": 114,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:14Z"
+  },
+  {
+    "user_id": "user_007",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 121,
+    "response_size_bytes": 170,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:14Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 135,
+    "response_size_bytes": 158,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:19Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 112,
+    "response_size_bytes": 474,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:11Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 93,
+    "response_size_bytes": 309,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:04Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 74,
+    "response_size_bytes": 257,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:07Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 58,
+    "response_size_bytes": 178,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:21Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 101,
+    "response_size_bytes": 418,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:28Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/products",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 52,
+    "response_size_bytes": 460,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:05Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 162,
+    "response_size_bytes": 302,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:22Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 104,
+    "response_size_bytes": 287,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:09Z"
+  },
+  {
+    "user_id": "user_003",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 94,
+    "response_size_bytes": 172,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:25Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 197,
+    "response_size_bytes": 152,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:12Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 92,
+    "response_size_bytes": 304,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:17Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 181,
+    "response_size_bytes": 390,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:07Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 157,
+    "response_size_bytes": 381,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:17Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 197,
+    "response_size_bytes": 334,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:10Z"
+  },
+  {
+    "user_id": "user_000",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 182,
+    "response_size_bytes": 487,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:12Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 187,
+    "response_size_bytes": 346,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:18Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 149,
+    "response_size_bytes": 272,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:12Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/search",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 177,
+    "response_size_bytes": 444,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:29Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 112,
+    "response_size_bytes": 357,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:25Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 188,
+    "response_size_bytes": 359,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:26Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 88,
+    "response_size_bytes": 404,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:12Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 197,
+    "response_size_bytes": 270,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:23Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 152,
+    "response_size_bytes": 277,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:03Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 134,
+    "response_size_bytes": 427,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:13Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 161,
+    "response_size_bytes": 402,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:09Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/auth",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 189,
+    "response_size_bytes": 252,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:20Z"
+  },
+  {
+    "user_id": "user_008",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 119,
+    "response_size_bytes": 496,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:03Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 88,
+    "response_size_bytes": 463,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:15Z"
+  },
+  {
+    "user_id": "user_001",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 160,
+    "response_size_bytes": 355,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:21Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/users",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 135,
+    "response_size_bytes": 303,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:14Z"
+  },
+  {
+    "user_id": "user_002",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 110,
+    "response_size_bytes": 170,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:11Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 119,
+    "response_size_bytes": 309,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:10Z"
+  },
+  {
+    "user_id": "user_009",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 120,
+    "response_size_bytes": 166,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:24Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 72,
+    "response_size_bytes": 264,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:10Z"
+  },
+  {
+    "user_id": "user_004",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 192,
+    "response_size_bytes": 384,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:22Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 90,
+    "response_size_bytes": 179,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:21Z"
+  },
+  {
+    "user_id": "user_005",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 106,
+    "response_size_bytes": 398,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:20Z"
+  },
+  {
+    "user_id": "user_999",
+    "endpoint": "/api/orders",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 75,
+    "response_size_bytes": 423,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:03:07Z"
+  },
+  {
+    "user_id": "user_006",
+    "endpoint": "/api/critical",
+    "method": "GET",
+    "status_code": 200,
+    "response_time_ms": 103,
+    "response_size_bytes": 485,
+    "request_size_bytes": 100,
+    "timestamp": "2025-01-15T10:02:27Z"
+  }
+]
