@@ -121,7 +121,7 @@ if __name__ == '__main__':
     
     # Determine the path to the sample data
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    sample_path = os.path.join(script_dir, 'tests', 'test_data', 'sample_medium.json')
+    sample_path = os.path.join(script_dir, 'tests', 'test_data', 'sample_small.json')
 
     if not os.path.exists(sample_path):
         print(f"Error: Could not find sample data at {sample_path}")

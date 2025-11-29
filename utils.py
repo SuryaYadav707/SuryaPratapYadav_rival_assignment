@@ -23,38 +23,42 @@ def parse_timestamp(ts_str: str) -> Union[datetime, None]:
         return dt
     except (ValueError, TypeError):
         return None
-
 def validate_log_entry(log: dict) -> Union[dict, None]:
     """
     Validates and cleans a single log entry, returning None if invalid.
     """
     required_fields: Final[list[str]] = [
-        "timestamp", "endpoint", "method", "response_time_ms", 
+        "timestamp", "endpoint", "method", "response_time_ms",
         "status_code", "user_id", "request_size_bytes", "response_size_bytes"
     ]
-    
+
     for field in required_fields:
         if field not in log:
-            return None 
+            return None
 
-    # Validate response time and sizes (must be non-negative integers)
+    # Validate numeric fields (response time, sizes)
     try:
         log["response_time_ms"] = int(log["response_time_ms"])
         log["request_size_bytes"] = int(log["request_size_bytes"])
         log["response_size_bytes"] = int(log["response_size_bytes"])
-        
+
         if log["response_time_ms"] < 0 or log["request_size_bytes"] < 0 or log["response_size_bytes"] < 0:
             return None
     except ValueError:
         return None
-        
+
+    # Validate status code (NEW: Wrap in try/except)
+    try:
+        log["status_code"] = int(log["status_code"]) # Ensure status code is int
+    except ValueError:
+        return None # Return None if status_code cannot be converted to int
+
     # Validate timestamp
     log_dt = parse_timestamp(log["timestamp"])
     if not log_dt:
         return None
-        
+
     log["timestamp"] = log_dt # Store datetime object
-    log["status_code"] = int(log["status_code"]) # Ensure status code is int
 
     return log
 
